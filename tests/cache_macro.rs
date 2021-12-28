@@ -23,6 +23,6 @@ mod test {
         assert_eq!(fibonacci(0, 8), (21, 0));
         assert_eq!(fibonacci(0, 9), (34, 0));
         assert_eq!(fibonacci(0, 10), (55, 0));
-        assert_eq!(fibonacci(0, 50), 12586269025);
+        assert_eq!(fibonacci(0, 50), (12586269025, 0));
     }
 }
